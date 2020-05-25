@@ -3,10 +3,26 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { TitreComponent } from './components/titre/titre.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
+import { HomeComponent } from './components/home/home.component';
+import { AboutCoronaComponent } from './components/about-corona/about-corona.component';
+import { SymptomsComponent } from './components/symptoms/symptoms.component';
+import { PreventionComponent } from './components/prevention/prevention.component';
+import { RegisterComponent } from './contact/register/register.component';
+import { LoginComponent } from './contact/login/login.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TitreComponent,
+    NavbarComponent,
+    HomeComponent,
+    AboutCoronaComponent,
+    SymptomsComponent,
+    PreventionComponent,
+    RegisterComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
