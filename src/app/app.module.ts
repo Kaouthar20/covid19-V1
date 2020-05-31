@@ -11,6 +11,7 @@ import { SymptomsComponent } from './components/symptoms/symptoms.component';
 import { PreventionComponent } from './components/prevention/prevention.component';
 import { RegisterComponent } from './contact/register/register.component';
 import { LoginComponent } from './contact/login/login.component';
+import { SymptomComponent } from './symptom/symptom.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { LoginComponent } from './contact/login/login.component';
     SymptomsComponent,
     PreventionComponent,
     RegisterComponent,
-    LoginComponent
+    LoginComponent,
+    SymptomComponent
   ],
   imports: [
     BrowserModule,

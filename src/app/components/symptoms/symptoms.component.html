@@ -1,55 +1,21 @@
-
 <section class="p-5">
-    <div class="container-fluid">
-      <div class="row mb-4">
+  <div class="container-fluid">
+    <div class="row mb-4">
 
-        <div class="col text-center">
+      <div class="col text-center">
         <h5 class="text-primary my-3">WHAT ARE THE SYMPTOMS OF COVID-19?</h5>
         <h1 class="text-secondery"> <strong> SYMPTOMS OF </strong> <b>CORONAVIRUS</b> </h1>
-        <p class="lead text-secondery ">People may be sick with the virus for 1 to 14 days before developing symptoms. 
-            The most common symptoms of coronavirus disease (COVID-19) are fever, tiredness,
-             and dry cough. Most people (about 80%) recover from the disease without needing special treatment.
+        <p class="lead text-secondery ">People may be sick with the virus for 1 to 14 days before developing symptoms.
+          The most common symptoms of coronavirus disease (COVID-19) are fever, tiredness,
+          and dry cough. Most people (about 80%) recover from the disease without needing special treatment.
         </p>
       </div>
     </div>
-      <!-- END OF titels-->
-      <div class="row">
-        <div class="col-lg-4 col-sm-10">
-          <img src="assets/image/backgroundHome.jpg" class="img-thumbnail">
-          <h3 class="text-warning my-3">Coughing</h3>
-          <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos.
-          </p>
-        </div>
-        <div class="col-lg-4 col-sm-10"><img src="assets/image/backgroundHome.jpg" class="img-thumbnail">
-          <h3 class="text-warning my-3">High Fever</h3>
-          <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos.
-          </p>
-        </div>
-        <div class="col-lg-4 col-sm-10"><img src="assets/image/backgroundHome.jpg" class="img-thumbnail">
-          <h3 class="text-warning my-3">Pneumonia</h3>
-          <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos.
-          </p>
-        </div>
-        <div class="col-lg-4 col-sm-10">
-          <img src="assets/image/backgroundHome.jpg" class="img-thumbnail">
-          <h3 class="text-warning my-3">Shortness of Breath</h3>
-          <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos.
-          </p>
+    <!-- END OF titels-->
+    <div class="row">
+      <div class="col-lg-4 col-sm-10" *ngFor='let symptom of symptoms'>
+        <symptom [name]="symptom.name"></symptom>
       </div>
-      <div class="col-lg-4 col-sm-10">
-        <img src="assets/image/backgroundHome.jpg" class="img-thumbnail">
-        <h3 class="text-warning my-3">Vomiting</h3>
-        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos.
-        </p>
     </div>
-    <div class="col-lg-4 col-sm-10">
-      <img src="assets/image/backgroundHome.jpg" class="img-thumbnail">
-      <h3 class="text-warning my-3">Diarrhea</h3>
-      <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos.
-      </p>
   </div>
-    </div>
-    </div>
-  </section>
-
-  
+</section>
