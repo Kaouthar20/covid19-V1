@@ -12,6 +12,14 @@ import { PreventionComponent } from './components/prevention/prevention.componen
 import { RegisterComponent } from './contact/register/register.component';
 import { LoginComponent } from './contact/login/login.component';
 
+
+import { HighFeverComponent } from './components/symptoms/high-fever/high-fever.component';
+import { PneumoniaComponent } from './components/symptoms/pneumonia/pneumonia.component';
+import { ShortnessOfBreathComponent } from './components/symptoms/shortness-of-breath/shortness-of-breath.component';
+import { VomitingComponent } from './components/symptoms/vomiting/vomiting.component';
+import { DiarrheaComponent } from './components/symptoms/diarrhea/diarrhea.component';
+import { CoughingsComponent } from './components/symptoms/coughings/coughings.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +30,14 @@ import { LoginComponent } from './contact/login/login.component';
     SymptomsComponent,
     PreventionComponent,
     RegisterComponent,
-    LoginComponent
+    LoginComponent,
+    
+    HighFeverComponent,
+    PneumoniaComponent,
+    ShortnessOfBreathComponent,
+    VomitingComponent,
+    DiarrheaComponent,
+    CoughingsComponent
   ],
   imports: [
     BrowserModule,
