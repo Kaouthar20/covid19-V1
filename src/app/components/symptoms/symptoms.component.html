@@ -14,7 +14,7 @@
     <!-- END OF titels-->
     <div class="row">
       <div class="col-lg-4 col-sm-10" *ngFor='let symptom of symptoms'>
-        <symptom [name]="symptom.name"></symptom>
+        <symptom [symptom]="symptom"></symptom>
       </div>
     </div>
   </div>

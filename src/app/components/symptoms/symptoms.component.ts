@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 
-import { SymptomComponent } from '../../symptom/symptom.component'
+import { SymptomComponent } from './symptom/symptom.component';
+import { symptoms } from '../../data/symptoms.data';
+import { Symptom } from '../../objects/symptom';
 
 @Component({
   selector: 'app-symptoms',
@@ -8,15 +10,8 @@ import { SymptomComponent } from '../../symptom/symptom.component'
   styleUrls: ['./symptoms.component.css']
 })
 export class SymptomsComponent implements OnInit {
-  symptoms: Array<object> = [
-    { name: 'Coughing' },
-    { name: 'High Fever' },
-    { name: 'Pneumonia' },
-    { name: 'Shortness of Breath' },
-    { name: 'Vomiting' },
-    { name: 'Diarrhea' }];
   constructor() { }
-
+  symptoms  = [...symptoms];
   ngOnInit(): void {
   }
 

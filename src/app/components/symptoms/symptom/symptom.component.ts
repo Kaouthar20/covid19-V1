@@ -1,4 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
+import { Symptom } from 'src/app/objects/symptom';
 
 @Component({
   selector: 'symptom',
@@ -6,7 +7,7 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./symptom.component.css']
 })
 export class SymptomComponent implements OnInit {
-  @Input() name: string;  
+  @Input() symptom: Symptom;  
   constructor() { }
 
   ngOnInit(): void {
