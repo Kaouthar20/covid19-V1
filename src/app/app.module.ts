@@ -33,15 +33,7 @@ import { CoughingsComponent } from './components/symptoms/coughings/coughings.co
     RegisterComponent,
     LoginComponent,
 
-    
-    HighFeverComponent,
-    PneumoniaComponent,
-    ShortnessOfBreathComponent,
-    VomitingComponent,
-    DiarrheaComponent,
-    CoughingsComponent
-
-   
+    SymptomComponent
 
   ],
   imports: [
