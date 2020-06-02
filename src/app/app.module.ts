@@ -9,8 +9,9 @@ import { HomeComponent } from './components/home/home.component';
 import { AboutCoronaComponent } from './components/about-corona/about-corona.component';
 import { SymptomsComponent } from './components/symptoms/symptoms.component';
 import { PreventionComponent } from './components/prevention/prevention.component';
-import { RegisterComponent } from './contact/register/register.component';
-import { LoginComponent } from './contact/login/login.component';
+import { RegisterComponent } from './components/contact/register/register.component';
+import { LoginComponent } from './components/contact/login/login.component';
+import { SymptomComponent } from './components/symptoms/symptom/symptom.component';
 
 
 import { HighFeverComponent } from './components/symptoms/high-fever/high-fever.component';
@@ -31,6 +32,7 @@ import { CoughingsComponent } from './components/symptoms/coughings/coughings.co
     PreventionComponent,
     RegisterComponent,
     LoginComponent,
+
     
     HighFeverComponent,
     PneumoniaComponent,
@@ -38,6 +40,9 @@ import { CoughingsComponent } from './components/symptoms/coughings/coughings.co
     VomitingComponent,
     DiarrheaComponent,
     CoughingsComponent
+
+   
+
   ],
   imports: [
     BrowserModule,
