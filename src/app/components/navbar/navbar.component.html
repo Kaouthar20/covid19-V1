@@ -1,21 +1,21 @@
 
 <nav class="navbar navbar-expand-md bg-light navbar-light fixed-top">
     <!-- Brand -->
-    <a class="navbar-brand" href="#"><i class="fas fa-thumbs-up"></i> </a>
+    <a class="navbar-brand" routerLink="/" > Covid-19</a>
   
     <!-- Links -->
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link"  routerLink="/">Home</a>
+        <a class="nav-link"  routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link"  routerLink="/aboutCorona">About Corona</a>
+        <a class="nav-link"  routerLink="/aboutCorona" routerLinkActive="active" >About Corona</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link"  routerLink="/prevention">Prevention</a>
+        <a class="nav-link"  routerLink="/preventions" routerLinkActive="active">Preventions</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link"  routerLink="/symptoms">Symptoms</a>
+        <a class="nav-link"  routerLink="/symptoms" routerLinkActive="active">Symptoms</a>
       </li>
      
       <!-- Dropdown -->

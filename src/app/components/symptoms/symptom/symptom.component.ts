@@ -4,7 +4,7 @@ import { Symptom } from 'src/app/objects/symptom';
 @Component({
   selector: 'symptom',
   templateUrl: './symptom.component.html',
-  styleUrls: ['./symptom.component.css']
+  styleUrls: ['./symptom.component.scss']
 })
 export class SymptomComponent implements OnInit {
   @Input() symptom: Symptom;  

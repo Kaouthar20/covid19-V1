@@ -8,7 +8,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { HomeComponent } from './components/home/home.component';
 import { AboutCoronaComponent } from './components/about-corona/about-corona.component';
 import { SymptomsComponent } from './components/symptoms/symptoms.component';
-import { PreventionComponent } from './components/prevention/prevention.component';
+
 import { RegisterComponent } from './components/contact/register/register.component';
 import { LoginComponent } from './components/contact/login/login.component';
 import { SymptomComponent } from './components/symptoms/symptom/symptom.component';
@@ -20,6 +20,9 @@ import { ShortnessOfBreathComponent } from './components/symptoms/shortness-of-b
 import { VomitingComponent } from './components/symptoms/vomiting/vomiting.component';
 import { DiarrheaComponent } from './components/symptoms/diarrhea/diarrhea.component';
 import { CoughingsComponent } from './components/symptoms/coughings/coughings.component';
+import { PreventionsComponent } from './components/preventions/preventions.component';
+import { PreventionComponent } from './components/preventions/prevention/prevention.component';
+
 
 @NgModule({
   declarations: [
@@ -29,11 +32,17 @@ import { CoughingsComponent } from './components/symptoms/coughings/coughings.co
     HomeComponent,
     AboutCoronaComponent,
     SymptomsComponent,
-    PreventionComponent,
+
     RegisterComponent,
     LoginComponent,
 
-    SymptomComponent
+    SymptomComponent,
+
+    PreventionsComponent,
+
+    PreventionComponent,
+
+
 
   ],
   imports: [
