@@ -8,9 +8,16 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { HomeComponent } from './components/home/home.component';
 import { AboutCoronaComponent } from './components/about-corona/about-corona.component';
 import { SymptomsComponent } from './components/symptoms/symptoms.component';
-import { PreventionComponent } from './components/prevention/prevention.component';
-import { RegisterComponent } from './contact/register/register.component';
-import { LoginComponent } from './contact/login/login.component';
+
+import { RegisterComponent } from './components/contact/register/register.component';
+import { LoginComponent } from './components/contact/login/login.component';
+import { SymptomComponent } from './components/symptoms/symptom/symptom.component';
+
+
+
+import { PreventionsComponent } from './components/preventions/preventions.component';
+import { PreventionComponent } from './components/preventions/prevention/prevention.component';
+
 
 @NgModule({
   declarations: [
@@ -20,9 +27,18 @@ import { LoginComponent } from './contact/login/login.component';
     HomeComponent,
     AboutCoronaComponent,
     SymptomsComponent,
-    PreventionComponent,
+
     RegisterComponent,
-    LoginComponent
+    LoginComponent,
+
+    SymptomComponent,
+
+    PreventionsComponent,
+
+    PreventionComponent,
+
+
+
   ],
   imports: [
     BrowserModule,
