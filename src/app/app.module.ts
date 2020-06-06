@@ -17,6 +17,7 @@ import { SymptomComponent } from './components/symptoms/symptom/symptom.componen
 
 import { PreventionsComponent } from './components/preventions/preventions.component';
 import { PreventionComponent } from './components/preventions/prevention/prevention.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 
 @NgModule({
@@ -36,6 +37,8 @@ import { PreventionComponent } from './components/preventions/prevention/prevent
     PreventionsComponent,
 
     PreventionComponent,
+
+    FooterComponent,
 
 
 
