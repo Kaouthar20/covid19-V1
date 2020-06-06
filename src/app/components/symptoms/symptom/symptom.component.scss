@@ -1,8 +1,26 @@
 img{
-    height: 300px ;
-    width: 300px;
+    height: 100px ;
+    width: 100px;
 }
 p{
     text-align: justify;
+   right: 3px;
    
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+.card:hover{
+   background-color: dodgerblue;;
+}
+ div a {
+    text-decoration: none;
 }
