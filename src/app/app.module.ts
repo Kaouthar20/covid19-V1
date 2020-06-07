@@ -20,6 +20,7 @@ import { PreventionsComponent } from './components/preventions/preventions.compo
 import { PreventionComponent } from './components/preventions/prevention/prevention.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { FaqComponent } from './components/faq/faq.component';
+import { NewsComponent } from './components/news/news.component';
 
 
 @NgModule({
@@ -43,6 +44,8 @@ import { FaqComponent } from './components/faq/faq.component';
     FooterComponent,
 
     FaqComponent,
+
+    NewsComponent,
 
 
 
