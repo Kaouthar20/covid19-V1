@@ -1,22 +1,24 @@
 
-   
-<div class="container bg-light ">
+   <section>
+<div class="container-fluid bg-light ">
 
 <a href="">
     
     <div class="card my-3  ">
-    <img src="assets/image/{{symptom.image}}"  class="card-img-right img-fluid rounded-circle mx-2 my-2 d-block">
-    
-      
-        <h3 class="text-secondary my-0 text-center ">{{symptom.name}}</h3>
+        <div class="row">
+            <div class="col-lg-6">
+    <img src="assets/image/{{symptom.image}}"  class="card-img-right img-fluid rounded-circle mx-3 my-3 d-block">
+</div>
+<div class="col-lg-6">
+        <h3 class="text-secondary mx-3 my-2 text-center ">{{symptom.name}}</h3>
      
 
-<p class="text-muted lead text-justify">{{symptom.description}}
+<p class="text-muted lead text-justify mx-3 my-2">{{symptom.description}}
 </p>
 </div>
-
-
-   
+</div>
+</div>   
 
 </a>
 </div>
+</section>
