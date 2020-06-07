@@ -1,10 +1,10 @@
 
 <section>
-<footer class="bg-secondary " routerLink="/" >
+<footer class="bg-secondary " >
     <div class="container">
       <div class="row">
-        <div class="col-4 text-center p-5">
-          <a class="navbar-brand text-danger " id="col"  >
+        <div class="col-4 text-center p-4">
+          <a class="navbar-brand text-danger " id="col" routerLink="/"  >
    
             <img src="assets/image/virus1.jpg" class="img-fluid rounded-circle mx-auto" style="width:40px; height:40px ">
            <strong>Covid-19</strong> </a>
@@ -19,8 +19,8 @@
            </div>
            
         </div>
-        <div class="col-4 text-center p-5">
-          <a  class="text-white text-capitalize font-weight-light p-3 mb-3 " ><strong>COVID-19 RESPONSE</strong></a>
+        <div class="col-4 text-center p-3">
+          <h2  class="text-white text-capitalize font-weight-light p-3 mb-3 " routerLink="/" ><strong>COVID-19 RESPONSE</strong></h2>
            <h3 class="text-light font-weight-light font-italic mb-3">  Emergency Call: </h3>
            <h3 class="text-light font-weight-light font-italic mb-3">  Mail Us:
             info@coronica.com  </h3>
@@ -31,13 +31,14 @@
              Brockport NY 14420 </h3>
  
          </div>
-         <div class="col-4 text-center p-5">
-          <a  class="text-white text-capitalize font-weight-light p-5 " ><strong>IMPORTANT LINK</strong>  </a>
-           <h3 class="text-light font-weight-light font-italic mb-3">About Corona </h3>
-           <h3 class="text-light font-weight-light font-italic mb-3">Symptoms </h3>
-           <h3 class="text-light font-weight-light font-italic mb-3"> Prevention </h3>
-           <h3 class="text-light font-weight-light font-italic mb-3">  Protect Yourself </h3>
-           <h3 class="text-light font-weight-light font-italic mb-3">    Faq </h3>
+         <div class="col-4 text-center p-3">
+          <h2  class="text-white text-capitalize font-weight-light p-4 " ><strong>IMPORTANT LINK</strong>  </h2>
+          <a  routerLink="/aboutCorona"> <h3 class="text-light font-weight-light font-italic mb-3">About Corona </h3></a>
+          <a  routerLink="/preventions"><h3 class="text-light font-weight-light font-italic mb-3"> Prevention </h3></a>
+           <a  routerLink="/symptoms"><h3 class="text-light font-weight-light font-italic mb-3">Symptoms </h3></a>
+           
+           <a  routerLink="/"><h3 class="text-light font-weight-light font-italic mb-3">  Protect Yourself </h3></a>
+           <a  routerLink="/"><h3 class="text-light font-weight-light font-italic mb-3">    Faq </h3></a>
          
          </div>
       </div>
