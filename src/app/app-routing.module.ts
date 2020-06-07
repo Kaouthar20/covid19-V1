@@ -7,6 +7,7 @@ import { SymptomsComponent } from './components/symptoms/symptoms.component';
 import { RegisterComponent } from './components/contact/register/register.component';
 import { AboutCoronaComponent } from './components/about-corona/about-corona.component';
 import { PreventionsComponent } from './components/preventions/preventions.component';
+import { FaqComponent } from './components/faq/faq.component';
 
 
 
@@ -15,7 +16,7 @@ const routes: Routes = [
 {path : "aboutCorona", component : AboutCoronaComponent},
 {path : "preventions", component : PreventionsComponent},
 {path : "symptoms", component : SymptomsComponent},
-
+{path : "faq", component : FaqComponent},
 {path : "register", component : RegisterComponent},
 
 ];

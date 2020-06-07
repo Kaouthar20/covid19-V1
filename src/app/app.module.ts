@@ -19,6 +19,7 @@ import { SymptomComponent } from './components/symptoms/symptom/symptom.componen
 import { PreventionsComponent } from './components/preventions/preventions.component';
 import { PreventionComponent } from './components/preventions/prevention/prevention.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { FaqComponent } from './components/faq/faq.component';
 
 
 @NgModule({
@@ -40,6 +41,8 @@ import { FooterComponent } from './components/footer/footer.component';
     PreventionComponent,
 
     FooterComponent,
+
+    FaqComponent,
 
 
 
