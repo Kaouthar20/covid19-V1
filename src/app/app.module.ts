@@ -22,6 +22,8 @@ import { FooterComponent } from './components/footer/footer.component';
 import { FaqComponent } from './components/faq/faq.component';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { CarouselComponent } from './components/carousel/carousel.component';
+
 
 
 
@@ -46,6 +48,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     FooterComponent,
 
     FaqComponent,
+
+    CarouselComponent,
+
 
 
  

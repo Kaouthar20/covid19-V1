@@ -1,0 +1,19 @@
+<app-carousel [isControls]="true" class="carousel-multi-item multi-animation" [type]="'carousel-multi-item'"
+              [animation]="'slide'">
+  <app-carousel-item *ngFor="let item of slides; let i = index">
+    <div class="col-md-4 pb-2" *ngFor="let card of item; let cardIndex = index">
+      <app-card class="my-1 h-100">
+        <app-card-img [src]="card.img" alt="Card image cap"></app-card-img>
+        <app-card-body>
+          <app-card-title>
+            <h4>{{card.title}}</h4>
+          </app-card-title>
+          <p>{{card.description}}</p>
+        </app-card-body>
+        <app-card-footer>
+          <a href="#" mdbBtn color="primary" class="waves-light" mdbWavesEffect>{{card.buttonText}}</a>
+        </app-card-footer>
+      </app-card>
+    </div>
+  </app-carousel-item>
+</app-carousel>
