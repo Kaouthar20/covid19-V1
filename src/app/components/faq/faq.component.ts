@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import * as $ from 'jquery';
 @Component({
   selector: 'app-faq',
   templateUrl: './faq.component.html',
@@ -10,6 +10,33 @@ export class FaqComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+
+    $(".toggle h3").click(function(e){
+      e.preventDefault();
+      if($(this).closest("div").find("div:first").css("display")=="none")
+      {   
+          $(this).closest("div").find("div:first").show();
+          $(this).closest("div").find(".plus").text("-");
+          $(this).closest("div").find(".plus").css("background", "#ffffff");
+          $(this).closest("div").find(".plus").css("color", "#000");
+          $(this).closest("div").find("h3").css("background", "#48b1bf");
+          
+      }
+      else
+      {
+          $(this).closest("div").find("div:first").hide();
+          $(this).closest("div").find(".plus").text("+");
+          $(this).closest("div").find(".plus").css("background", "#888888");
+          $(this).closest("div").find(".plus").css("color", "#fff");
+          $(this).closest("div").find("h3").css("background", "#f3f3f3");
+      }
+      
+      
+  })
+
+
+
+
   }
 
 }

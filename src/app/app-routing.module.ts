@@ -8,7 +8,7 @@ import { RegisterComponent } from './components/contact/register/register.compon
 import { AboutCoronaComponent } from './components/about-corona/about-corona.component';
 import { PreventionsComponent } from './components/preventions/preventions.component';
 import { FaqComponent } from './components/faq/faq.component';
-import { NewsComponent } from './components/news/news.component';
+
 
 
 
@@ -18,7 +18,7 @@ const routes: Routes = [
 {path : "preventions", component : PreventionsComponent},
 {path : "symptoms", component : SymptomsComponent},
 {path : "faq", component : FaqComponent},
-{path : "news", component : NewsComponent},
+
 {path : "register", component : RegisterComponent},
 
 ];
