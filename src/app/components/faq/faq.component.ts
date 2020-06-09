@@ -19,7 +19,7 @@ export class FaqComponent implements OnInit {
           $(this).closest("div").find(".plus").text("-");
           $(this).closest("div").find(".plus").css("background", "#ffffff");
           $(this).closest("div").find(".plus").css("color", "#000");
-          $(this).closest("div").find("h3").css("background", "#48b1bf");
+          $(this).closest("div").find("h3").css("background", "#f00011");
           
       }
       else
