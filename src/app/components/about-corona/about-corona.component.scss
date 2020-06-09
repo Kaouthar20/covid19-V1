@@ -12,10 +12,22 @@
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    padding-top: 5px;
+    padding-top: 6px;
    
 }
+.btn-play, ::after, ::before {
+    /* -webkit-box-sizing: border-box; */
+    box-sizing: border-box;
+}
+
+
 .bg{
     background-image: url("src/assets/image/virus-chinois-coronavirus-france-ra-sante.jpg" );
-   
+   width: 100% 100%;
 }
+b{
+    color:#d10000;
+    }
+    strong{
+        color: slategray;
+    }

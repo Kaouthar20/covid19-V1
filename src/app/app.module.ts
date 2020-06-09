@@ -23,6 +23,7 @@ import { FaqComponent } from './components/faq/faq.component';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CarouselComponent } from './components/carousel/carousel.component';
+import { SlideComponent } from './carousel/slide/slide.component';
 
 
 
@@ -50,6 +51,8 @@ import { CarouselComponent } from './components/carousel/carousel.component';
     FaqComponent,
 
     CarouselComponent,
+
+    SlideComponent,
 
 
 

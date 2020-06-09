@@ -9,6 +9,7 @@ import { AboutCoronaComponent } from './components/about-corona/about-corona.com
 import { PreventionsComponent } from './components/preventions/preventions.component';
 import { FaqComponent } from './components/faq/faq.component';
 import { CarouselComponent } from './components/carousel/carousel.component';
+import { SlideComponent } from './carousel/slide/slide.component';
 
 
 
@@ -20,7 +21,7 @@ const routes: Routes = [
 {path : "preventions", component : PreventionsComponent},
 {path : "symptoms", component : SymptomsComponent},
 {path : "faq", component : FaqComponent},
-{path : "carousell", component : CarouselComponent},
+{path : "slide", component : SlideComponent},
 {path : "register", component : RegisterComponent},
 
 ];
