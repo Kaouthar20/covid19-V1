@@ -1,0 +1,31 @@
+<section class="mt-5 " >
+    <div class="container bg-light my-5 ">
+        <div class="row mb-2">
+
+            <div class="col text-center ">
+              <h5 class="text-secondary my-5 ">LATEST UPDATED POST?</h5>
+              <h1 class="text-secondery"> <strong>UPDATEDS </strong> <b>NEWS</b> </h1>
+        </div> </div>
+        
+<owl-carousel [options]="slideOptions" [carouselClasses]="['owl-theme', 'sliding']">
+    <div class="item" *ngFor="let image of images">
+      <div>
+
+        <div class="card my-5 mx-2">
+            <img [src]="image" class="card-img-top" alt="...">
+            <div class="card-img-overlay">
+                <a href="#" class="btn btn-primary btn-left">Go somewhere</a>
+                </div>
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            
+            </div>
+          </div>
+
+      
+      </div>
+    </div>
+</owl-carousel>
+</div>
+</section>
