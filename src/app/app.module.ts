@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
+import { OwlModule } from 'ngx-owl-carousel';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -22,8 +23,8 @@ import { FooterComponent } from './components/footer/footer.component';
 import { FaqComponent } from './components/faq/faq.component';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { CarouselComponent } from './components/carousel/carousel.component';
-import { SlideComponent } from './carousel/slide/slide.component';
+import { CarouselComponent } from './component/carousel/carousel.component';
+
 
 
 
@@ -52,8 +53,6 @@ import { SlideComponent } from './carousel/slide/slide.component';
 
     CarouselComponent,
 
-    SlideComponent,
-
 
 
  
@@ -65,7 +64,8 @@ import { SlideComponent } from './carousel/slide/slide.component';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    OwlModule
     
   ],
   providers: [],
