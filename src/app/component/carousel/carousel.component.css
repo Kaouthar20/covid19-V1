@@ -7,13 +7,35 @@ b{
     .card-img, .card-img-top {
         border-top-left-radius: calc(.25rem - 1px);
         border-top-right-radius: calc(.25rem - 1px);
-        height: 100px;
+        height: 150px;
     }
     div.item{
-        height: 500px;
+        height: 600px;
     }
 
     div.owl-item active{
-        height: 500px;
+        height: 600px;
 
+    }
+    .card {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: #fff;
+        background-clip: border-box;
+        border: 1px solid rgba(0,0,0,.125);
+        border-radius: .25rem;
+        height: 550px;
+    }
+    .owl-theme .owl-nav [class*=owl-] {
+      
+        margin: 5px;
+        padding: 4px 7px;
+        color: blue;
+       size: 4rem;
+        display: inline-block;
+        cursor: pointer;
+        border-radius: 3px;
     }

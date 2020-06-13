@@ -1,27 +1,27 @@
-<section class="mt-5 " >
+
     <div class="container bg-light my-5 ">
-        <div class="row mb-2">
+        <div class="row mb-1">
 
             <div class="col text-center ">
-              <h5 class="text-secondary my-5 ">LATEST UPDATED POST?</h5>
+              <h5 class="text-secondary my-5 p-2">LATEST UPDATED POST?</h5>
               <h1 class="text-secondery"> <strong>UPDATEDS </strong> <b>NEWS</b> </h1>
         </div> </div>
         
 <owl-carousel class="bg" [options]="slideOptions" [carouselClasses]="['owl-theme', 'sliding']">
 
-        <div class="item" *ngFor="let element of carouselElements">
+        <div class="item d-flex flex-column" *ngFor="let element of carouselElements">
       <div>
 
-        <div class="card my-5 mx-2">
+        <div class="card  mx-2  ">
             <img  [src]='element.image' class="card-img-top" alt="...">
           
             <div class="card-body">
-             <h5 class="card-title">{{element.title}}</h5>
+             <h5 class="card-title ">{{element.title}}</h5>
               <p class="card-text">{{element.description}}</p>
               <a href="{{element.readmoreLink}}"  
               target="_blank"  
               [ngClass]="{'disabled' : !element.readmoreLink}"
-              class="btn btn-outline-primary disabled">{{element.badge}}</a>
+              class="btn btn-outline-primary disabled ">{{element.badge}}</a>
            
             </div>
           </div>
@@ -31,4 +31,3 @@
     </div>
 </owl-carousel>
 </div>
-</section>
