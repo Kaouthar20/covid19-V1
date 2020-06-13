@@ -7,20 +7,20 @@
               <h1 class="text-secondery"> <strong>UPDATEDS </strong> <b>NEWS</b> </h1>
         </div> </div>
         
-<owl-carousel [options]="slideOptions" [carouselClasses]="['owl-theme', 'sliding']">
+<owl-carousel class="bg" [options]="slideOptions" [carouselClasses]="['owl-theme', 'sliding']">
 
         <div class="item" *ngFor="let element of carouselElements">
       <div>
 
         <div class="card my-5 mx-2">
             <img  [src]='element.image' class="card-img-top" alt="...">
-            <div class="card-img-overlay">
-                <a href="#" class="btn btn-primary btn-left">{{element.badge}}</a>
-                </div>
+          
             <div class="card-body">
-             <a routerLink=""> <h5 class="card-title">{{element.title}}</h5></a>
+             <h5 class="card-title">{{element.title}}</h5>
               <p class="card-text">{{element.description}}</p>
-            
+              
+                <a routerLink="#" class="btn btn-outline-primary ">{{element.badge}}</a>
+           
             </div>
           </div>
 

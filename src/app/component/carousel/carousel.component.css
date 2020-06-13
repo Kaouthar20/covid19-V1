@@ -4,4 +4,16 @@ b{
     strong{
         color: slategray;
     }
-  
+    .card-img, .card-img-top {
+        border-top-left-radius: calc(.25rem - 1px);
+        border-top-right-radius: calc(.25rem - 1px);
+        height: 100px;
+    }
+    div.item{
+        height: 500px;
+    }
+
+    div.owl-item active{
+        height: 500px;
+
+    }
