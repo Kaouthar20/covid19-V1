@@ -8,17 +8,18 @@
         </div> </div>
         
 <owl-carousel [options]="slideOptions" [carouselClasses]="['owl-theme', 'sliding']">
-    <div class="item" *ngFor="let image of images">
+
+        <div class="item" *ngFor="let element of carouselElements">
       <div>
 
         <div class="card my-5 mx-2">
-            <img [src]="image" class="card-img-top" alt="...">
+            <img  [src]='element.image' class="card-img-top" alt="...">
             <div class="card-img-overlay">
-                <a href="#" class="btn btn-primary btn-left">Go somewhere</a>
+                <a href="#" class="btn btn-primary btn-left">{{element.badge}}</a>
                 </div>
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+             <a routerLink=""> <h5 class="card-title">{{element.title}}</h5></a>
+              <p class="card-text">{{element.description}}</p>
             
             </div>
           </div>
