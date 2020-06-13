@@ -9,33 +9,28 @@ b{
         border-top-right-radius: calc(.25rem - 1px);
         height: 150px;
     }
-    div.item{
-        height: 600px;
-    }
+   
 
     div.owl-item active{
-        height: 600px;
+        height: 300;
 
     }
     .card {
-        position: relative;
-        display: flex;
-        flex-direction: column;
+       
+       display: flex;
+       
         min-width: 0;
         word-wrap: break-word;
         background-color: #fff;
         background-clip: border-box;
         border: 1px solid rgba(0,0,0,.125);
-        border-radius: .25rem;
-        height: 550px;
+        border-radius: .30rem;
+        height: 300;
     }
-    .owl-theme .owl-nav [class*=owl-] {
-      
-        margin: 5px;
-        padding: 4px 7px;
-        color: blue;
-       size: 4rem;
-        display: inline-block;
-        cursor: pointer;
-        border-radius: 3px;
+    .card-body {
+   
+        height: 300px;
     }
+   
+   
+    

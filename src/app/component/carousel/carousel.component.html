@@ -12,12 +12,12 @@
         <div class="item d-flex flex-column" *ngFor="let element of carouselElements">
       <div>
 
-        <div class="card  mx-2  ">
+        <div class="card   mx-2  ">
             <img  [src]='element.image' class="card-img-top" alt="...">
           
             <div class="card-body">
-             <h5 class="card-title ">{{element.title}}</h5>
-              <p class="card-text">{{element.description}}</p>
+             <h5 class="card-title  ">{{element.title}}</h5>
+              <p class="card-text ">{{element.description}}</p>
               <a href="{{element.readmoreLink}}"  
               target="_blank"  
               [ngClass]="{'disabled' : !element.readmoreLink}"
