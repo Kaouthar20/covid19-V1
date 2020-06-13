@@ -13,48 +13,56 @@ export class CarouselComponent implements OnInit {
       image: '../assets/image/COVID-19-Coronavirus-Map.jpg',
       title : "Situation update worldwide",
       badge :"read more",
+      readmoreLink : '//www.ecdc.europa.eu/en/geographical-distribution-2019-ncov-cases',
       description:'Disclaimer: National updates are published at different times and in different time zones. This, and the time ECDC needs to process these data, may lead to discrepancies between the national numbers and the numbers published by ECDC'
     },
     {
       image: '../assets/image/healthService.jpg',
       title : "COVID-19 significantly impacts health services for noncommunicable diseases",
       badge :"read more",
+      readmoreLink : "",
       description:' Prevention and treatment services for noncommunicable diseases (NCDs) have been severely disrupted since the COVID-19 pandemic began, according to a WHO survey released today.'
     },
     {
       image: '../assets/image/backgroundHome.jpg',
       title : "Mutation Allows Coronavirus to Infect More Cells, Study Finds. Scientists Urge Caution.",
       badge :"read more",
+      readmoreLink : "",
       description:'Geneticists said more evidence is needed to determine if a common genetic variation of the virus spreads more easily between people.'
     },
     {
       image: '../assets/image/backgroundHome.jpg',
       title : "card 4",
       badge :"read more",
+      readmoreLink : "",
       description:'provide some description here to make it awesome'
     },
     {
       image: '../assets/image/backgroundHome.jpg',
       title : "card 5",
       badge :"Go Home",
+      readmoreLink : "",
       description:'provide some description here to make it awesome'
     },
     {
       image: '../assets/image/backgroundHome.jpg',
       title : "card 6",
       badge :"read more",
+      readmoreLink : "",
       description:'provide some description here to make it awesome'
     },
     {
       image: '../assets/image/backgroundHome.jpg',
       title : "card 7",
       badge :"read more",
+      readmoreLink : "",
       description:'provide some description here to make it awesome'
     },
     {
       image: '../assets/image/backgroundHome.jpg',
       title : "card 8",
       badge :"read more",
+      readmoreLink : "",
       description:'provide some description here to make it awesome'
     }
   ]; 

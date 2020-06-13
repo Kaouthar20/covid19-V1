@@ -18,8 +18,10 @@
             <div class="card-body">
              <h5 class="card-title">{{element.title}}</h5>
               <p class="card-text">{{element.description}}</p>
-              
-                <a routerLink="#" class="btn btn-outline-primary ">{{element.badge}}</a>
+              <a href="{{element.readmoreLink}}"  
+              target="_blank"  
+              [ngClass]="{'disabled' : !element.readmoreLink}"
+              class="btn btn-outline-primary disabled">{{element.badge}}</a>
            
             </div>
           </div>
