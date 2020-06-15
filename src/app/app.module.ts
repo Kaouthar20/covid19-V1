@@ -5,7 +5,7 @@ import { OwlModule } from 'ngx-owl-carousel';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { TitreComponent } from './components/titre/titre.component';
+
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { HomeComponent } from './components/home/home.component';
 import { AboutCoronaComponent } from './components/about-corona/about-corona.component';
@@ -32,7 +32,7 @@ import { CarouselComponent } from './component/carousel/carousel.component';
 @NgModule({
   declarations: [
     AppComponent,
-    TitreComponent,
+  
     NavbarComponent,
     HomeComponent,
     AboutCoronaComponent,

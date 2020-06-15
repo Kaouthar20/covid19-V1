@@ -22,7 +22,7 @@ const routes: Routes = [
 {path : "symptoms", component : SymptomsComponent},
 {path : "faq", component : FaqComponent},
 {path : "news", component : CarouselComponent},
-{path : "register", component : RegisterComponent},
+{path : "contact", component : RegisterComponent},
 
 ];
 
