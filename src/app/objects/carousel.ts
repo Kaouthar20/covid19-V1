@@ -1,12 +1,16 @@
 
 export class Carousel {
-    name: string;
     image: string;
+    title: string;
+    badge: string;
+    readmoreLink : string;
+   
     description: string;
-
-    constructor(n? : string, i? : string, d? : string){
-        this.name = n;
+    constructor( i? : string, t? : string, b?:string, rL? : string , d? : string){
         this.image = i;
+        this.title = t;
+        this.badge = b;
+        this.readmoreLink =rL;
         this.description = d;
     }
 }
