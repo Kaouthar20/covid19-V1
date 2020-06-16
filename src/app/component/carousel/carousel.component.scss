@@ -21,15 +21,26 @@ b{
        
         min-width: 0;
         word-wrap: break-word;
-        background-color: #fff;
+      
         background-clip: border-box;
         border: 1px solid rgba(0,0,0,.125);
         border-radius: .30rem;
         height: 300;
+     
+        transition: 0.3s;
     }
     .card-body {
   height: 300px;
     }
-   
-   
+    .zoom:hover {
+        -ms-transform: scale(1.1); /* IE 9 */
+        -webkit-transform: scale(1.1); /* Safari 3-8 */
+        transform: scale(1.1); 
+    }
     
+      
+      .btn:hover {opacity: 1}
+      .card-body{
+        background-color: cornflowerblue;;
+        opacity: 0.9;
+      }

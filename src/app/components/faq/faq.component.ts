@@ -8,11 +8,10 @@ import { Faq } from 'src/app/objects/faq';
   styleUrls: ['./faq.component.css']
 })
 export class FaqComponent implements OnInit {
- faqs =[...faqs];
- faq : Faq;
+
   constructor() { }
-
-
+  faqs =[...faqs];
+  faq : Faq;
   ngOnInit(): void {
 
     $(".toggle h3").click(function(e){

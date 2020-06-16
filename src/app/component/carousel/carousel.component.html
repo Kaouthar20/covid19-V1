@@ -12,8 +12,8 @@
         <div class="item d-flex flex-column" *ngFor="let element of carouselElements">
        
 
-        <div class="card  col-sm-25 ">
-            <img  [src]='element.image' class="card-img-top" alt="...">
+        <div class="card  col-sm-25 zoom ">
+            <img  [src]='element.image'  class="card-img-top " alt="...">
           
             <div class="card-body">
              <h5 class="card-title  ">{{element.title}}</h5>
@@ -21,7 +21,7 @@
               <a href="{{element.readmoreLink}}"  
               target="_blank"  
               [ngClass]="{'disabled' : !element.readmoreLink}"
-              class="btn btn-outline-primary disabled mt-2 ">{{element.badge}}</a>
+              class="btn btn-outline-danger disabled mt-2 ">{{element.badge}}</a>
            
         
           </div>

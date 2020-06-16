@@ -3,7 +3,7 @@
   <div class="container-fluid my-5 ">
     <div class="row mt-5">
 
-      <div class="col text-center ">
+      <div class="col-lg-12 col-sm-10 text-center ">
         <h5 class="text-secondary my-3">HOW TO PROTECT YOURSELF?</h5>
         <h1 class="text-secondery"> <strong> PREVENTION OF </strong> <b>CORONAVIRUS</b> </h1>
         <div class="txt">
@@ -25,7 +25,7 @@
 
 
 <div class="row">
-    <div class="col-lg-4 col-sm-10 mx-auto" *ngFor='let prevention of preventions'>
+    <div class="col-lg-4 col-sm-10  text-center" *ngFor='let prevention of preventions'>
       <app-prevention [prevention]="prevention"></app-prevention>
     </div>
   </div>
