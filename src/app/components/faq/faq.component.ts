@@ -1,13 +1,17 @@
 import { Component, OnInit } from '@angular/core';
 import * as $ from 'jquery';
+import { faqs } from 'src/app/data/faq.data';
+import { Faq } from 'src/app/objects/faq';
 @Component({
   selector: 'app-faq',
   templateUrl: './faq.component.html',
   styleUrls: ['./faq.component.css']
 })
 export class FaqComponent implements OnInit {
-
+ faqs =[...faqs];
+ faq : Faq;
   constructor() { }
+
 
   ngOnInit(): void {
 
